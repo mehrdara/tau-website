@@ -1,0 +1,20 @@
+{
+  "name": "ThaoWebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "deploy":"gh-pages -d tau"
+  },
+  "keywords": [],
+  "author": "",
+  "homepage": "https://mehrdara.github.io/tau-website",
+
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
