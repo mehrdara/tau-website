@@ -1,6 +1,8 @@
-
+*{
+    box-sizing: border-box;
+}
 @font-face {
-    font-family:'vazir';
+    font-family:'IRsans';
     font-style: 'normal';
     font-weight: 'normal';
     src: url('fonts/IRANSansWeb.eot');
@@ -11,12 +13,12 @@
    }
     
    body{
-   font-family: 'Vazir', Arial, sans-serif;
+   font-family: 'IRsans', Arial, sans-serif;
    font-weight:normal;
    background: rgb(192, 235, 255);
    }
    title{
-    font-family: 'Vazir', Arial, sans-serif;
+    font-family: 'IRsans', Arial, sans-serif;
     font-weight:normal;
 
    }
@@ -25,44 +27,26 @@ body::before {
     content: '';
     height: 85px;
     background: rgb(192, 235, 255);
-  }
-@media(min-width:700px){
-    .show-case{
-
-        overflow:auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;  
-
-    }
-    #carouselExampleIndicators{
-        width:90%;
-        height: 90%;
-    }
 }
-@media(min-width:1000px){
-    .show-case{
-        overflow:auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-     
-    }
-    #carouselExampleIndicators{
-
-        width:60%;
-        height:60%;
-
-    }
-   
+.img-logo1{
+    width: 200px;
+    height: 90px;
 }
-.navbar{
-    opacity:90%;
+
+
+.nav-item{
+    font-size:  1.2rem;
+    font-weight: bold;
+
+}
+.dropdown-item{
+    font-size:  1.2rem;
+    font-weight: bold;
 }
 #products{
     background: rgb(192, 235, 255);
 }
+
 .add-padding{
     border-radius: 30px;
     padding:35px;
@@ -98,3 +82,53 @@ h1{
 .hov:hover{
     cursor: pointer;
 }
+
+.social-icons img{
+    width: 60px;
+    transform: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+    opacity: 80%;
+}
+#social-media p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#social-media {
+    display: flex;
+}
+.footer-box .fa{
+    margin-right:8px ;
+    font-size: 25px;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}
+.col-md-4 .footer-box img{
+    width: 50px;
+}
+.col-md-4 .footer-box img{
+    width: 30px;
+    height: 30px;
+}
+#social-media{
+    background: url(./Img/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.accordion{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+  .carousel-inner{
+      width: 600px;
+      height: 380px;
+      border-radius: 35px;
+  }
